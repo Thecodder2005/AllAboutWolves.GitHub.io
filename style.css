@@ -1,0 +1,29 @@
+.bigtext{
+  text-align: center;
+  color: blue;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.wolf{
+  height: 300px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  }
+.secundartxt{
+  text-align: center;
+}
+.secundartitle{
+  color: green;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+.button{
+  background-color: limegreen;
+  height: 60px;
+  width: 60px;
+  transition-property: background;
+  transition-duration: 0.3s;
+}
+button:hover{
+  background-color: red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz games</title>
+    <script src="script.js"></script>
+</head>
+
+<body style="background-color: green">
+  <p> Quiz test</p>
+ <p>Average life span in the wild?</p>
+ <button onclick="wrong()">2-3 years </button>
+ <button onclick="wrong()">11 years</button>
+ <button onclick="right()">8-9 years</button>
+ 
+ <p> What family do gray wolves belong to?</p>
+ 
+  <button onclick="right()">canine family</button>
+ <button onclick="wrong()">carnivorous family</button>
+ <button onclick="wrong()">herbivore family</button>
+ 
+  
+ 
+ <script>
+   function wrong(){
+     alert(false)
+   }
+   function right(){
+     alert (true)
+     var score=0;
+     var highscore=score+1; 
+   }
+  
+ </script>
+</body>
+
+</html>
